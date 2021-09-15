@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# cambiar tanaño de la terminal
-resize -s 35 100 > /dev/null
-
 # Colores
 blue='\e[1;34m'
 green='\e[1;32m'
@@ -12,6 +9,10 @@ if [ "$(id -u)" != "0" ]; then
    echo "Ejecuta este script como Root (o usando sudo)."
    exit 1
 fi
+
+clear
+# cambiar tanaño de la terminal
+resize -s 35 100 > /dev/null
 
 # Escoger tarjeta de red
 printf "\e[1;34mTarjetas de red detectadas\e[1;34m\e"
