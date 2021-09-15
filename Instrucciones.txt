@@ -1,0 +1,4 @@
+Solo tienes que ejecutar la instalacion de la herramienta con "./instalador.sh" o un "bash instalador.sh".
+Ya tiene todos los permisos no es necesario "chmod +x" una vez ejecutado el instalador para ejecutar escribe mac
+en cualquier lugar de la terminal. Y puedes eliminar la carpeta que contiene el instalador y ejecutable ya no es necesaria
+¡Disfrutar! 
